@@ -26,6 +26,7 @@
   },
   "scripts": {
     "prepublishOnly": "npm test",
+    "postpublish": "npm-sns",
     "test": "tape test/test*.js"
   },
   "files": [
